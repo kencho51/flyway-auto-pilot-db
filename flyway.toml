@@ -121,26 +121,18 @@ ignoreWithNoCheck = true
 
 [environments.Prod]
 url = "jdbc:sqlserver://10.194.136.125:40000;authentication=sqlPassword;databaseName=AutopilotProd;encrypt=mandatory;trustServerCertificate=true"
-user = "***REDACTED***"
-password = "0000abc!"
 displayName = "Production Database"
 
 [environments.Test]
 url = "jdbc:sqlserver://10.194.136.125:40000;authentication=sqlPassword;databaseName=AutopilotTest;encrypt=mandatory;trustServerCertificate=true"
-user = "***REDACTED***"
-password = "0000abc!"
 displayName = "Test database"
 
 [environments.Check]
 url = "jdbc:sqlserver://10.194.136.125:40000;authentication=sqlPassword;databaseName=AutopilotCheck;encrypt=mandatory;trustServerCertificate=true"
-user = "***REDACTED***"
-password = "0000abc!"
 displayName = "Check (Reporting) database"
 provisioner = "clean"
 
 [environments.Build]
 url = "jdbc:sqlserver://10.194.136.125:40000;authentication=sqlPassword;databaseName=AutopilotBuild;encrypt=mandatory;trustServerCertificate=true"
-user = "***REDACTED***"
-password = "0000abc!"
 displayName = "Build database"
 provisioner = "clean"

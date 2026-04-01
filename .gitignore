@@ -4,3 +4,6 @@
 *.artifact
 report.html
 report.json
+
+# untrack non sql related scripts
+worker-scripts
